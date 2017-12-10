@@ -1,0 +1,97 @@
+@charset "utf-8";
+* { margin: 0px; padding: 0px; }
+body { font-family:  "Microsoft YaHei", "SimSun"; font-size: 12px; color: #000; line-height: 20px; background: #FFF; }
+a { color: #000; text-decoration: none; }
+ol, ul, li { list-style-type: none; }
+img { border: none; vertical-align: top; }
+input { outline: none; }
+
+.wrap { width: 1200px; overflow: hidden; margin: 0 auto 20px auto; position: relative; zoom: 1; }
+.fl { display: inline; float: left; }
+.fr { display: inline; float: right; }
+
+.topInfo { font-size: 14px; color: #999; line-height: 200%; text-align: right; clear: both; width: 100%; overflow: hidden; position: absolute; left: 0; top: 90px; }
+.topInfo a { color: #999; }
+.topInfo .fr { float: none; display: block; }
+
+.headBox { background: url(../images/banner.jpg) no-repeat center top; clear: both; width: 1200px; height: 65px; overflow: hidden; margin: 0 auto; padding-top: 175px; }
+.headBox div { font-size: 18px; color: #FFF; line-height: 28px; background: url(../images/b_1.gif) no-repeat right center; text-align: center; width: 185px; overflow: hidden; }
+.headBox div a { color: #FFF; }
+.headBox .first { margin-left: 230px; }
+.headBox .last { background-image: none; }
+
+.broadcastWrap { clear: both; width: 1200px; height: 38px; overflow: hidden; margin: 0 auto; position: relative; }
+.broadcastBox { width: 900px; overflow: hidden; }
+.broadcastBox div { font-weight: bold; font-size: 16px; color: #2C81D5; line-height: 22px; background-color: #C4E2FF; padding: 0 5px; position: absolute; left: 0; top: 8px; }
+.broadcastBox ul { display: block; width: 10000px; margin-top: 8px; padding-left: 100px; }
+.broadcastBox li { font-size: 16px; color: #2C7FD3; line-height: 22px; white-space: nowrap; margin-right: 30px; }
+.broadcastBox li a { color: #2C7FD3; }
+.broadcastBox p { font-size: 16px; color: #999; line-height: 22px; white-space: nowrap; margin-top: 8px; padding-left: 100px; }
+.broadcastBox p a { color: #999; margin-right: 30px; }
+
+.searchBox { border: 2px solid #C4E2FF; border-radius: 5px; width: 280px; height: 26px; overflow: hidden; margin-top: 4px; }
+.searchText { font-size: 14px; color: #999; line-height: 24px; border: none; text-indent: 10px; width: 240px; height: 24px; }
+.searchBtn { background: url(../images/b_2.png) no-repeat center center; border: none; width: 35px; height: 26px; overflow: hidden; cursor: pointer; }
+
+.newsBox { width: 390px; overflow: hidden; }
+.newsBox h1, .newsBox h2 { font-size: 22px; color: #0757A5; line-height: 30px; }
+.newsBox h1 a, .newsBox h2 a { color: #0757A5; }
+.newsBox ul { margin: 10px 0 15px 0; }
+.newsBox li { font-size: 16px; line-height: 260%; }
+.newsBox p { font-size: 14px; color: #999; text-align: right; clear: both; width: 100%; }
+.newsBox p a { color: #999; }
+
+.picBox { width: 790px; height: 520px; overflow: hidden; position: relative; }
+.picBox ul { height: 520px; overflow: hidden; }
+.picBox li { width: 790px; height: 520px; overflow: hidden; position: relative; }
+.picBox li p { font-size: 18px; color: #FFF; line-height: 45px; background-color: #000; background-color: rgba(0,0,0,.7); text-indent: 30px; width: 100%; height: 45px; overflow: hidden; position: absolute; left: 0; bottom: 0; }
+.picBox li p a { color: #FFF; }
+.arrtLeft { background: url(../images/arrt.png) no-repeat left top; width: 45px; height: 45px; overflow: hidden; margin-top: -25px; position: absolute; left: 0; top: 50%; cursor: pointer; }
+.arrtRight { background: url(../images/arrt.png) no-repeat right top; width: 45px; height: 45px; overflow: hidden; margin-top: -25px; position: absolute; right: 0; top: 50%; cursor: pointer; }
+.idxBox { font-size: 18px; color: #BBB; line-height: 45px; position: absolute; right: 20px; bottom: 0; }
+.idxBox span { font-size: 26px; color: #BFDFFF; }
+
+.leftNews { width: 810px; }
+.newsTag { width: 385px; height: 275px; overflow: hidden; margin: 0 20px 30px 0; }
+.newsTag h2 { font-weight: normal; font-size: 18px; border-top: 3px solid #3389DE; line-height: 35px; background: url(../images/b_3.png) no-repeat left center; text-indent: 20px; position: relative; }
+.newsTag h2 a { font-size: 12px; position: absolute; right: 0; top: 0; }
+.newsTag dl { width: 100%; height: 120px; overflow: hidden; margin: 10px 0; }
+.newsTag dt { margin-right: 20px; }
+.newsTag dd { font-size: 18px; line-height: 160%; }
+.newsTag li { font-size: 16px; line-height: 200%; }
+
+.rightNews { width: 385px; }
+.newsTagRight h2 { font-weight: normal; font-size: 18px; color: #FFF; line-height: 30px; background: #3389DE url(../images/b_4.png) no-repeat 10px center; text-indent: 30px; position: relative; }
+.newsTagRight h2 a { font-size: 12px; color: #FFF; position: absolute; top: 0; right: 10px; }
+.newsTagRight ul { padding: 20px 0; }
+.newsTagRight li { font-size: 16px; line-height: 200%; float:left;list-style:none;margin:3px;}
+.newsTagRight h3 { font-weight: normal; font-size: 18px; color: #0757A5; line-height: 160%; padding: 15px 0; }
+.newsTagRight h3 a { color: #0757A5; }
+.newsTagRight dl { border-bottom: 1px dotted #CCC; clear: both; width: 100%; height: 120px; overflow: hidden; padding-bottom: 20px; }
+.newsTagRight dl dt { margin-right: 20px; }
+.newsTagRight dl dd { font-size: 16px; line-height: 200%; }
+.newsTagRight .last { border-bottom: none; }
+
+.photoBox_new h2 { font-weight: normal; font-size: 18px; border-top: 3px solid #3389DE; line-height: 35px; background: url(../images/b_3.png) no-repeat left center; text-indent: 20px; position: relative; }
+.photoBox_new h2 a { font-size: 12px; position: absolute; right: 0; top: 0; }
+.photoBox_new ul { height: 250px; overflow: hidden; }
+.photoBox_new li { width: 385px; height: 250px; overflow: hidden; margin-right: 20px; position: relative; }
+.photoBox_new li p { font-size: 16px; color: #FFF; line-height: 45px; background-color: #000; background-color: rgba(0,0,0,.7); text-align: center; width: 100%; height: 45px; overflow: hidden; position: absolute; left: 0; bottom: 0; }
+.photoBox_new li p a { color: #FFF; }
+.photoBox_new .a_left { background: url(../images/arrt_new.png) no-repeat left top; width: 16px; height: 24px; overflow: hidden; position: absolute; left: 10px; top: 50%; cursor: pointer; }
+.photoBox_new .a_right { background: url(../images/arrt_new.png) no-repeat right top; width: 16px; height: 24px; overflow: hidden; position: absolute; right: 10px; top: 50%; cursor: pointer; }
+
+.scienceBox h2 { font-weight: normal; font-size: 18px; border-top: 3px solid #3389DE; line-height: 35px; background: url(../images/b_3.png) no-repeat left center; text-indent: 20px; position: relative; }
+.scienceBox h2 a { font-size: 12px; position: absolute; right: 0; top: 0; }
+.scienceBox ul { width: 1215px; overflow: hidden; padding: 10px 0; zoom: 1; }
+.scienceBox li { width: 190px; height: 125px; overflow: hidden; margin-right: 12px; position: relative; }
+.scienceBox li p { font-size: 16px; color: #FFF; line-height: 25px; background-color: #000; background-color: rgba(0,0,0,.7); text-align: center; width: 100%; position: absolute; left: 0; bottom: 0; }
+.scienceBox li p a { color: #FFF; }
+
+.linksBox h2 { font-weight: normal; font-size: 18px; border-top: 3px solid #3389DE; line-height: 35px; background: url(../images/b_3.png) no-repeat left center; text-indent: 20px; position: relative; }
+.linksBox h2 a { font-size: 12px; position: absolute; right: 0; top: 0; }
+.linksBox div { font-size: 16px; line-height: 200%; padding: 10px 0; }
+.linksBox div a { margin: 0 10px; }
+
+.footerBox { font-size: 14px; color: #FFF; line-height: 200%; background-color: #535353; text-align: center; clear: both; width: 100%; padding: 20px 0; }
+.footerBox a { color: #FFF; }
