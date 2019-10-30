@@ -11,6 +11,6 @@ flask-babel==0.11.2
 guess_language==0.2
 flipflop==1.0
 coverage==4.4.1
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 sqlalchemy
 
